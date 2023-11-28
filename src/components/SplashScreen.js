@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ".././assets/css/SplashScreen.css";
 
 //import photo files
-import logo from ".././assets/img/chremo.jpg";
+import logo from ".././assets/img/logo.png";
 
 function SplashScreen() {
   const [showSplash, setShowSplash] = useState(true);

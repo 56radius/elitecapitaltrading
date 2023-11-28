@@ -1,68 +1,4 @@
-/**
-  * Name: Fondex
-  * Version: 2.0
-  * Author: ThemetechMount
-  * Author URI: http://www.themetechmount.com
-*/
-
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i");
-
-/**
-
-  1. General
-     - Variables
-     - Transition
-     - Shadow
-     - Extra-outer
-
-  2. Spacing
-     - Padding
-     - Margin
-
-  3. Color
-     - Skin-color, Skin-bg-color, Skin-border-color
-     - darkGrey-color, darkGrey-bg-color
-     - white-color, white-bg-color, white-border-color
-     - Grey-color, Grey-bg-color, grey-border-color
-     - Extra-color
-
-  4. Pre-loader
-
-  5. TooltipTop
-
-  6. TopBar
-
-  7. Header
-     - SiteBrand(logo)
-     - SiteNavigation(Menu)
-     - ttm-rt-contact(HeaderIcons - Search, Cart)
-     - ttm-search-overlay
-
-  8. Footer
-     - FirstFooter
-     - SecondFooter
-     - menu-footer-services
-     - mailchimp-inputbox
-     - flicker-widget
-     - Footer-nav-menu
-
-  9. GoTop BUtton
-  
-  10. Page-Title-Row
-
-  12. Inner-Pages
-      - contact-us
-      - error
-      - portfolio
-      - blog
-      - team-member-details
-      - element
-
-**/
-
-/* ===============================================
-    General
-------------------------*/
 
 /** Variables **/
 article,
@@ -1596,7 +1532,7 @@ div.product #reviews .star-rating,
   left: 0;
   display: block;
   background: #fff;
-  background-image: url(../images/pre-loader-1.gif);
+  background-image: url(.././img/pre-loader-1.gif);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -2206,7 +2142,7 @@ ul li .icon-box.icon-style-border i {
     Footer
 ------------------------*/
 .footer {
-  background-image: url(../images/footer-bg.jpg);
+  background-image: url(.././assets/img/footer-bg.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2224,7 +2160,7 @@ ul li .icon-box.icon-style-border i {
 
 /** FirstFooter **/
 .first-footer {
-  background-image: url(../images/footer-bg-one.jpg);
+  background-image: url(.././assets/img/footer-bg-one.jpg);
   background-position: center bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2307,7 +2243,6 @@ ul li .icon-box.icon-style-border i {
   font-family: "themify";
   font-style: normal;
   font-weight: 400;
-  speak: none;
   display: inline-block;
   text-decoration: inherit;
   font-size: 14px;
@@ -2463,7 +2398,7 @@ ul.footer-nav-menu li:not(:last-child):after {
 
 .ttm-page-title-row {
   position: relative;
-  background-image: url(../images/ttm-pagetitle-bg.jpg);
+  background-image: url(.././img/ttm-pagetitle-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
